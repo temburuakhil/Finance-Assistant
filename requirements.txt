@@ -1,7 +1,8 @@
 fastapi
 uvicorn
+google-generativeai
+python-dotenv
+sentence-transformers
+faiss-cpu
 pdfplumber
 requests
-google-generativeai
-scikit-learn
-sentence-transformers
