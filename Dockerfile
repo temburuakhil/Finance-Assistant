@@ -14,10 +14,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Make the startup script executable
-RUN chmod +x /app/start.sh
+RUN chmod +x /app/start.py
 
 # Expose port
 EXPOSE 8000
 
 # Command to run the application with proper environment variable handling
-CMD ["/app/start.sh"] 
+CMD ["python", "/app/start.py"] 
