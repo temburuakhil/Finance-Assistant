@@ -1,7 +1,66 @@
+# Virtual Environment
 venv/
+env/
+.venv/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Git
 .git/
 .gitignore
+
+# Environment variables
 .env
+.env.local
+.env.production
+
+# Logs
 *.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
+
+# Test files
+tests/
+test_*
+*_test.py
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore

@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from services.document_parser import extract_text_from_pdf
-from services.embedding_search import build_vector_store, search_similar_chunks
+from services.embedding_search_light import build_vector_store, search_similar_chunks
 from utils.chunker import chunk_text
 from models.schemas import QueryRequest, QueryResponse
 from services.llm_local import generate_answer_with_gemini

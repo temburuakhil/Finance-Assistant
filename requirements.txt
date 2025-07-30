@@ -1,8 +1,8 @@
-fastapi
-uvicorn
-google-generativeai
-python-dotenv
-sentence-transformers
-faiss-cpu
-pdfplumber
-requests
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+google-generativeai==0.3.2
+python-dotenv==1.0.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+pdfplumber==0.10.3
+requests==2.31.0
